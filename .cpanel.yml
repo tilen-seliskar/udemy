@@ -2,4 +2,5 @@
   deployment:
     tasks:
       - export DEPLOYPATH=/home/divided/public_html/udemy/
+      - /bin/cp/ *.html $DEPLOYPATH
       - /bin/cp -R * $DEPLOYPATH
