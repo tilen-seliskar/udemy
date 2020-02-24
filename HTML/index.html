@@ -1,78 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Plain HTML</title>
   <link rel="icon" type="image/png" href="">
 </head>
+
 <body>
   <header>
-  <h1>Plain HTML webpage showcase</h1>
-  <a href="https://nova.divided.si" target="_blank"><img src="http://nova.divided.si/wp-content/uploads/2016/01/safety_pin-e1451944037711.jpg" alt="Some image" height="100"></a>
+    <a href="https://nova.divided.si" target="_blank"><img
+        src="http://nova.divided.si/wp-content/uploads/2016/01/safety_pin-e1451944037711.jpg" alt="Some image"
+        height="100"></a>
   </header>
+  <nav>
+    <a href="index.html">HOME</a> | <a href="thankyou.html">What do people think</a> | <a href="contact.html">Contact
+      me</a>
+  </nav>
   <main>
-  <p>This is a plain HTML (yes, no CSS) webpage. I must admit, it is easy to write it. No hussle with applying styles, no DIVs, no nothing, Just good old HTML</p>
-  <blockquote>But lets admit it, it is <strong>ugly as <em>F!</em></strong></blockquote>
-  <hr>
-  <h2>Why use plain HTML you say?</h2>
-  <p>Why would anyone even think about writing plain HTML? Well, I don't know... But you might be able to help me out on this one.</p>
-  <fieldset>
-    <legend>Please, take part in this short survey</legend>
-  <form>
-    Your name: <input type="text" name="name" required><br>
-    I would say that plain HTML is good for: <br>
-    <select name="goodFor">
-      <option value=""></option>
-      <option value="nothing">Nothing</option>
-      <option value="icecream">Icecream></option>
-      <option value="web">Making the internet pretty</option>
-    </select><br>
-    <input type="submit" value="Submit my opinion" >&nbsp;<input type="reset" value="I've made a mistake">
-  </form>
-  </fieldset>
-<h2>Why use plain HTML I say</h2>
-  <table>
-    <tr>
-      <th>Reason</th> <!--Column 1-->
-      <th>|</th>
-      <th>Expectation</th> <!--Column 2-->
-      <th>|</th>
-      <th>Outcome</th> <!--Column 3-->
-    </tr>
-    <tr>
-      <td>Learn the basics</td>
-      <td>|</td>
-      <td>Deliver some content to the page</td>
-      <td>|</td>
-      <td>Yes, some content is there but...<td>
-    </tr>
-    <tr>
-      <td>Do the Udemy exercise</td>
-      <td>|</td>
-      <td>Udemy will be happy</td>
-      <td>|</td>
-      <td>Udemy is happy</td>
-    </tr>
-  </table>
-  <hr>
-  <h2>Coclusion</h2>
-  <p>I like to do html <del>without</del> <ins>with</ins> CSS included.</p>
-  <p>I mean, just look at it, like it would be from outer space: <br>
-    <code>
-      /* Style the header */ <br>
-      .header {<br>
+    <h1>Plain HTML webpage showcase</h1>
+    <p>This is a plain HTML (yes, no CSS) webpage. I must admit, it is easy to write it. No hussle with applying styles,
+      no DIVs, no nothing, Just good old HTML</p>
+    <blockquote>But lets admit it, it is <strong>ugly as <em>F!</em></strong></blockquote>
+    <hr>
+    <h2>Why use plain HTML you say?</h2>
+    <p>Why would anyone even think about writing plain HTML? Well, I don't know... But you might be able to help me out
+      on this one.</p>
+    <fieldset>
+      <legend>Please, take part in this short survey</legend>
+      <form>
+        Your name: <input type="text" name="name" required><br>
+        I would say that plain HTML is good for: <br>
+        <select name="goodFor">
+          <option value=""></option>
+          <option value="nothing">Nothing</option>
+          <option value="icecream">Icecream 8></option>
+          <option value="web">Making the internet pretty</option>
+        </select><br>
+        <input type="submit" value="Submit my opinion">&nbsp;<input type="reset" value="I've made a mistake"><br><br>
+        <input type="button" value="What do others say?" onclick="window.location.href='thankyou.html'">
+      </form>
+    </fieldset>
+    <h2>Why use plain HTML I say</h2>
+    <table>
+      <tr>
+        <!--Column 1-->
+        <th>Reason</th>
+        <th>|</th>
+
+        <!--Column 2-->
+        <th>Expectation</th>
+        <th>|</th>
+
+        <!--Column 3-->
+        <th>Outcome</th>
+      </tr>
+      <tr>
+        <td>Learn the basics</td>
+        <td>|</td>
+
+        <td>Deliver some content to the page</td>
+        <td>|</td>
+
+        <td>Yes, some content is there but...
+        <td>
+      </tr>
+      <tr>
+        <td>Do the Udemy exercise</td>
+        <td>|</td>
+
+        <td>Andrei will be happy</td>
+        <td>|</td>
+
+        <td>Andrei is happy</td>
+      </tr>
+    </table>
+    <hr>
+    <h2>Coclusion</h2>
+    <p>I like to do html <del>without</del> <ins>with</ins> CSS included.</p>
+    <p>I mean, just look at it, like it would be from outer space: <br>
+      <code>
+        /* Style the header */ <br>
+        .header {<br>
         grid-area: header;<br>
         background-color: #f1f1f1;<br>
         padding: 30px;<br>
         text-align: center;<br>
         font-size: 35px;<br>
-      } <br>
-  </code>
-</p>
+        } <br>
+      </code>
+    </p>
   </main>
   <footer>
     <p>Just some footer with some copyright stuff <br><em>Copyright by Me, 2020</em></p>
   </footer>
 </body>
+
 </html>
