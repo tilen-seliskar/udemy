@@ -1,4 +1,4 @@
 ---
   deployment:
     tasks:
-      - export DEPLOYPATH=/home/user/public_html/udemy/
+      - export DEPLOYPATH=/home/divided/public_html/udemy/
