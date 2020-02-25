@@ -1,0 +1,149 @@
+body {
+	margin: 20px 0;
+}
+
+h1, p {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.robots {
+	background: -webkit-linear-gradient(white, whitesmoke, white);
+	padding-top: 40px;
+	transition: all 1s;
+}
+
+.robots:hover {
+	background: none;
+	padding-top: 40px;
+	transform: scale(1.1)	;
+}
+
+.robots:hover .left_eye,
+.robots:hover .right_eye {
+	border-radius: 15px;
+	height: 20px;
+	width: 20px;
+}
+
+.robots:hover .right_arm {
+	transform: translateX(10px) translateY(-100px) rotate(20deg);
+}
+
+.head, 
+.left_arm, 
+.torso, 
+.right_arm, 
+.left_leg, 
+.right_leg {
+	 background-color: #5f93e8;
+}
+
+.head { 
+	width: 200px; 
+	margin: 0 auto; 
+	height: 150px; 
+	border-radius: 200px 200px 0 0; 
+	margin-bottom: 10px;
+} 
+
+.eyes {
+	display: flex;
+}
+
+.head:hover {
+	border-radius: 2em 0;
+    transition: 1s ease;
+}
+
+.upper_body { 
+	width: 300px; 
+	height: 150px;
+  margin: 0 auto;
+	display: flex; 
+} 
+
+.left_arm, .right_arm { 
+	width: 40px; 
+	height: 125px;
+	border-radius: 100px; 
+} 
+
+.left_arm { 
+	margin-right: 10px; 
+} 
+
+.right_arm { 
+	margin-left: 10px; 
+} 
+
+.torso { 
+	width: 200px; 
+	height: 200px;
+	border-radius: 0 0 50px 50px; 
+} 
+
+.torso:hover {
+	transform: rotateY(180deg);
+	transition-duration: 2s;
+}
+
+.lower_body { 
+	width: 200px; 
+	height: 200px;
+	/* This is another useful property. Hmm what do you think it does?*/
+	margin: 0 auto;
+  display: flex;
+
+} 
+
+.left_leg, .right_leg { 
+	width: 40px; 
+	height: 120px;
+	border-radius: 0 0 100px 100px; 
+} 
+
+.left_leg { 
+	margin-left: 45px; 
+} 
+
+.left_leg:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+.right_leg:hover {
+	-webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+
+.right_leg { 
+	margin-left: 30px; 
+}
+
+.left_eye, .right_eye { 
+	width: 23px; 
+	height: 7px; 
+	border-radius: 5px 5px 0 0; 
+	background-color: white;  
+} 
+
+.left_eye { 
+	/* These properties are new and you haven't encountered
+	in this course. Check out CSS Tricks to see what it does! */
+	position: relative; 
+	top: 100px; 
+	left: 40px; 
+} 
+
+.right_eye { 
+	position: relative; 
+	top: 100px; 
+	left: 120px; 
+}

@@ -1,0 +1,40 @@
+* {
+  text-align: right;
+}
+
+body {
+  background-image: url(background.jfif);
+  background-size: cover;
+}
+
+h2, p {
+  color: red;
+  text-align: center;
+  border: 5px dashed purple;
+  cursor: pointer;
+}
+
+p {
+  text-;
+}
+
+p {
+  color: green;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+.webtext {
+  border: 3px dashed white;
+}
+
+#div1 {
+  background: rgba(255, 255, 255, .2);
+}
+
+#div2 {
+  background: rgba(0, 0, 0, .5);
+}
